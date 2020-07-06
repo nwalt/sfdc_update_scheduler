@@ -1,3 +1,7 @@
+# Project-defined
+sfdc_creds.json
+
+#standard github python ignores
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

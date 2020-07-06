@@ -1,0 +1,27 @@
+{
+    "main_type": "rotation",
+    "day": 5,
+    "time": "10:00:00",
+    "operation": "update",
+    "object_type": "Work_Order_Dispatch__c",
+    "chunks": [
+        {
+            "active": 1,
+            "data": [
+                {
+                    "Id": "a0Vi000000RhArq",
+                    "Service_Technician__c": "a0Qi000000CQn1q"
+                }
+            ]
+        },
+        {
+            "active": 0,
+            "data": [
+                {
+                    "Id": "a0Vi000000RhArq",
+                    "Service_Technician__c": "a0Qi000000D8pS8"
+                }
+            ]
+        }
+    ]
+}

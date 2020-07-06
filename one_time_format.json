@@ -1,0 +1,18 @@
+{
+    "main_type":"once",
+    "datetime":"ISO format date/time YYYY-MM-DDTHH:MM:SS",
+    "operation": "update or delete or insert", 
+    "object_type": "SFDC Object Type, exactly as spelled in the API i.e. Work_Order_Dispatch__c",
+    "data":[
+        {
+            "Id": "SFDC ID - 15 or 18 digit - not needed for insert",
+            "field - exact to api name, i.e. Service_Technician__c": "data",
+            "field2":"data"
+        },
+        {
+            "Id":"SFDC ID - 15 or 18 digit - not needed for insert",
+            "field - exact to api name, i.e. Service_Technician__c":"data",
+            "field2":"data"
+        }
+    ]
+}

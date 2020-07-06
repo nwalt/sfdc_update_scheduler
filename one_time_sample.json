@@ -1,0 +1,12 @@
+{
+    "main_type":"once",
+    "datetime":"2019-03-14T16:00:00",
+    "operation": "update", 
+    "object_type": "Work_Order_Dispatch__c",
+    "data":[
+        {
+            "Id": "a0Vi000000RhArq",
+            "Service_Technician__c": "a0Qi000000CQn1q"
+        }
+    ]
+}

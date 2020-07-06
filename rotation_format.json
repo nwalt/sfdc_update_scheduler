@@ -1,0 +1,39 @@
+{
+    "main_type":"rotation",
+    "day":"ISO Weekday, 1 = monday, 7 = sunday. Must be integer, no quotes",
+    "time":"ISO Time HH:MM:SS",
+    "operation": "update", 
+    "object_type": "SFDC Object Type, exactly as spelled in the API i.e. Work_Order_Dispatch__c",
+    "chunks":[
+        {
+            "active":"0 or 1, is this chunk currently active in sfdc. must be integer, no quotes",
+            "data":[
+                {
+                    "Id":"SFDC ID",
+                    "field":"data",
+                    "field2":"data"
+                },
+                {
+                    "Id":"SFDC ID",
+                    "field":"data",
+                    "field2":"data"
+                }
+            ]
+        },
+        {
+            "active":"0 or 1, is this chunk currently active in sfdc. must be integer, no quotes",
+            "data":[
+                {
+                    "Id":"SFDC ID",
+                    "field":"data",
+                    "field2":"data"
+                },
+                {
+                    "Id":"SFDC ID",
+                    "field":"data",
+                    "field2":"data"
+                }
+            ]
+        }
+    ]
+}
