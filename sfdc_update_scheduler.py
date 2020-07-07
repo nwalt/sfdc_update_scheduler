@@ -12,6 +12,7 @@ import simple_salesforce
 from simple_salesforce import Salesforce
 
 def main():
+    script_dir = sys.path[0]
     os.chdir(sys.argv[1])
     now = datetime.datetime.now()
     now_string = now.isoformat()
@@ -44,10 +45,11 @@ def main():
 
     #Auth SFDC session
     try:
-        with open('sfdc_creds.json', 'r') as read_file:
+        with open(os.path.join(
+            script_dir, 'sfdc_creds.json', 'r') as read_file:
             creds = json.load(read_file)
     except Exception as e:
-        with optn(log_file, 'a') as log:
+        with open(log_file, 'a') as log:
             log.write(f' Failed to load credentials\n{e}')
             exit()
 
