@@ -38,6 +38,7 @@ def main():
         if (not dir_list):
             with open(log_file,'a') as log:
                 log.write(f'No JSON files in directory {os.getcwd()}\n\n')
+                exit()
     except Exception as e:
         with open(log_file, 'a') as log:
             log.write(f'Directory error: {e}')
@@ -46,7 +47,7 @@ def main():
     #Auth SFDC session
     try:
         with open(os.path.join(
-            script_dir, 'sfdc_creds.json', 'r') as read_file:
+            script_dir, 'sfdc_creds.json'), 'r') as read_file:
             creds = json.load(read_file)
     except Exception as e:
         with open(log_file, 'a') as log:
