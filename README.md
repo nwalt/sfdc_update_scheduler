@@ -8,5 +8,7 @@ credential file should look like: {"user":"your_sfdc_username", "pass":"your_pas
 Install with:
 ```
 $ git clone https://github.com/nwalt/sfdc_update_scheduler
-$ python3 ./sfdc_update_scheduler/setup.py install
+$ pip3 install ./sfdc_update_scheduler
 ```
+
+Note: this will only with with wheel installed. The older egg format that setuptools uses w/o wheel doesn't handle single-file python projects well.
